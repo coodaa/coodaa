@@ -88,6 +88,42 @@ export default async function LocaleLayout({
             __html: `(function(){try{var t=localStorage.getItem('coodaa-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}})()`,
           }}
         />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify([
+              {
+                '@context': 'https://schema.org',
+                '@type': 'WebSite',
+                name: 'Coodaa',
+                url: 'https://coodaa.de',
+                author: { '@type': 'Person', name: 'Florian Schneider' },
+              },
+              {
+                '@context': 'https://schema.org',
+                '@type': 'Person',
+                name: 'Florian Schneider',
+                url: 'https://coodaa.de',
+                jobTitle: locale === 'de'
+                  ? ['Technischer Produktionsleiter', 'Full Stack Developer']
+                  : ['Technical Production Manager', 'Full Stack Developer'],
+                worksFor: { '@type': 'Organization', name: 'Coodaa' },
+                address: {
+                  '@type': 'PostalAddress',
+                  streetAddress: 'Linienstraße 227',
+                  addressLocality: 'Berlin',
+                  postalCode: '10178',
+                  addressCountry: 'DE',
+                },
+                email: 'hi@coodaa.de',
+                sameAs: [
+                  'https://github.com/coodaa',
+                  'https://www.linkedin.com/in/florianschneiderberlin/',
+                ],
+              },
+            ]),
+          }}
+        />
       </head>
       <body className={spaceGrotesk.variable}>
         <NextIntlClientProvider messages={messages}>

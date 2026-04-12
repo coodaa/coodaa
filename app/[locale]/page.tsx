@@ -1,7 +1,27 @@
+import type { Metadata } from 'next'
 import { useTranslations } from 'next-intl'
 import LetterReveal from '@/components/LetterReveal'
 import AnimateIn from '@/components/AnimateIn'
 import Link from 'next/link'
+
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  return {
+    title: locale === 'de'
+      ? 'Coodaa — Creative Developer & Technischer Produktionsleiter, Berlin'
+      : 'Coodaa — Creative Developer & Technical Production Manager, Berlin',
+    description: locale === 'de'
+      ? 'Coodaa ist das Studio von Florian Schneider — Freelance Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js und echtem SEO-Fundament. Neue Projekte willkommen.'
+      : 'Coodaa is the studio of Florian Schneider — Freelance Web Developer and Technical Production Manager from Berlin. Websites built with Next.js and real SEO foundations. Open to new projects.',
+    alternates: {
+      canonical: `https://coodaa.de/${locale}`,
+      languages: {
+        'de': 'https://coodaa.de/de',
+        'en': 'https://coodaa.de/en',
+      },
+    },
+  }
+}
 
 const theaterProjects = [
   { name: 'Volksbühne — Peer Gynt',   year: '2025' },

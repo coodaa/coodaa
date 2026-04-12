@@ -3,8 +3,21 @@ import { useTranslations } from 'next-intl'
 import LetterReveal from '@/components/LetterReveal'
 import AnimateIn from '@/components/AnimateIn'
 
-export const metadata: Metadata = {
-  title: 'Contact',
+export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
+  const { locale } = await params
+  return {
+    title: locale === 'de' ? 'Kontakt' : 'Contact',
+    description: locale === 'de'
+      ? 'Neues Web-Projekt, Zusammenarbeit oder Fragen zur technischen Produktionsleitung? Schreib mir — hi@coodaa.de'
+      : 'New web project, collaboration or questions about technical production management? Get in touch — hi@coodaa.de',
+    alternates: {
+      canonical: `https://coodaa.de/${locale}/contact`,
+      languages: {
+        'de': 'https://coodaa.de/de/contact',
+        'en': 'https://coodaa.de/en/contact',
+      },
+    },
+  }
 }
 
 export default function ContactPage() {

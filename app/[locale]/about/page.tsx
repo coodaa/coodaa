@@ -17,6 +17,13 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: locale === 'de'
       ? 'Florian Schneider — Creative Developer und Technischer Produktionsleiter aus Berlin. 10+ Jahre Theatertechnik, Volksbühne, Berliner Festspiele. Seit 2022 Full-Stack Web Development.'
       : 'Florian Schneider — Creative Developer and Technical Production Manager from Berlin. 10+ years theatre technology, Volksbühne, Berliner Festspiele. Full-Stack Web Development since 2022.',
+    alternates: {
+      canonical: `https://coodaa.de/${locale}/about`,
+      languages: {
+        'de': 'https://coodaa.de/de/about',
+        'en': 'https://coodaa.de/en/about',
+      },
+    },
     openGraph: {
       title: locale === 'de' ? 'Über mich — Coodaa' : 'About — Coodaa',
       description: locale === 'de'
