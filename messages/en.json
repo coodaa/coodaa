@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "theater": "Theater",
+    "web": "Web",
+    "about": "About",
+    "contact": "Contact",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "skip": "Skip to content"
+  },
+  "footer": {
+    "imprint": "Legal Notice",
+    "copy": "© {year} Coodaa — Florian Schneider"
+  },
+  "home": {
+    "tagline": "Full-Stack Developer & Technical Production Manager — Berlin / Remote",
+    "description": "Digital experiences for web & technology. Theatre technology, interaction design, code.",
+    "scroll": "scroll",
+    "intro_heading": "I build things",
+    "intro_heading_accent": "that move.",
+    "intro_text": "Coodaa is the studio of Florian Schneider. I build websites and digital experiences — and I'm open to new projects. Whether cultural institution, business or your own idea: get in touch.",
+    "ai_text": "I work with Claude as a daily development tool — faster delivery, cleaner code and websites with real SEO foundations. Accessibility and performance are not extras, they're the standard.",
+    "intro_link": "More about me",
+    "theater_label": "Theater",
+    "theater_description": "Technical production management for theatre and cultural institutions.",    "theater_link": "All productions",
+    "web_label": "Web & Digital",
+    "web_description": "Interactive websites and digital experiences.",
+    "web_link": "All projects"
+  },
+  "theater": {
+    "heading": "Theater",
+    "description": "Technical production management for theatre and cultural institutions — from Berlin to China.",
+    "role": "Role",
+    "visit": "More info",
+    "year": "Year"
+  },
+  "web": {
+    "heading": "Web & Digital",
+    "description": "Selected web projects — built with care, accessibility and real speed.",
+    "role": "Role",
+    "visit": "Visit website",
+    "year": "Year"
+  },
+  "about": {
+    "heading": "About",
+    "bio_heading": "I spent 10 years inside Berlin's cultural scene.",
+    "bio_heading_accent": "Berlin's cultural scene.",
+    "bio_1": "As Technical Manager at the Berliner Festspiele, Gropius Bau and Volksbühne, I learned how these institutions work — what they need, what drives them, and what they can't afford.",
+    "bio_2": "In 2022 I learned to code at Le Wagon Bootcamp in Berlin. Since then I've been building websites and digital experiences — focused on the world I know: culture, art, Berlin. Open to new commissions.",
+    "bio_3": "Coodaa is my studio. Not a generic web agency — precise work for projects that interest me. I place great importance on solid SEO, clean performance and real accessibility.",
+    "bio_ai": "I work with Claude as a daily development tool. That means faster delivery, fewer errors and projects that are technically on a level that used to require much bigger budgets.",
+    "contact_link": "Get in touch",
+    "skills_label": "Technologies",
+    "education_label": "Education",
+    "education_degree": "B.Eng. Theatre Technology",
+    "education_place": "Berlin University of Applied Sciences (BHT), 2008–2012",
+    "experience_label": "Experience",
+    "accessibility_label": "Accessibility",
+    "accessibility_text": "This website was built to WCAG 2.1 AA standards — with keyboard navigation, sufficient contrast and semantic HTML."
+  },
+  "contact": {
+    "heading": "Say hi.",
+    "description": "New project, collaboration or just hello? I look forward to hearing from you.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "legal": {
+    "heading": "Legal Notice",
+    "section_info": "Information according to § 5 TMG",
+    "section_contact": "Contact",
+    "section_liability": "Disclaimer",
+    "liability_text": "The contents of this website have been created with the utmost care. However, no guarantee can be given for the accuracy, completeness and timeliness of the content.",
+    "section_copyright": "Copyright",
+    "copyright_text": "The content and works on these pages created by the site operator are subject to German copyright law. Reproduction, editing, distribution and any kind of use outside the limits of copyright require the written consent of the respective author or creator.",
+    "section_a11y": "Accessibility",
+    "a11y_text": "This website aims to conform to WCAG 2.1 Level AA accessibility requirements. If you encounter any issues, please contact hi@coodaa.de."
+  },
+  "work": {
+    "heading": "All Projects",
+    "description": "Theatre, events and web — an overview of all work.",
+    "category_theater": "Theatre & Events",
+    "category_web": "Web & Digital",
+    "visit": "Visit website"
+  },
+  "not_found": {
+    "heading": "404",
+    "text": "This page does not exist.",
+    "link": "Back to home"
+  }
+}

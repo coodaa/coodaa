@@ -1,43 +1,150 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html,
-body,
-a
- {
-  font-family: Roboto;
-  color: white;
-  background-color: black;
-  text-decoration: inherit;
-}
-@use './global/variables.scss';
+/* ─── Bubblegum Theme System ─────────────────────────────────── */
 
-.app {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
+:root,
+[data-theme="strawberry"] {
+  --bg: #FEF0F5;
+  --surface: #FFD6EA;
+  --accent: #F72585;
+  --accent-light: #FFB3D9;
+  --fg: #190811;
+  --muted: #9E6B7E;
+  --nav-bg: rgba(254, 240, 245, 0.85);
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0;
-    flex-grow: 0;
-    flex-wrap: wrap;
+[data-theme="grape"] {
+  --bg: #F3EEFB;
+  --surface: #DDD0F8;
+  --accent: #7B2FBE;
+  --accent-light: #C4B5FD;
+  --fg: #120A1C;
+  --muted: #7B6990;
+  --nav-bg: rgba(243, 238, 251, 0.85);
 }
 
-.header > * {
-    text-align: center;
-    width: 10rem;
-    padding: 0.5rem 3rem;
-    margin-right: 0.5rem;
-    border-radius: 2rem;
-    border: 0.1rem solid variables.$color-accent-light;
+[data-theme="mint"] {
+  --bg: #EDFAF4;
+  --surface: #C2F0DC;
+  --accent: #0B8B5A;
+  --accent-light: #A7F3D0;
+  --fg: #071510;
+  --muted: #4A8A6A;
+  --nav-bg: rgba(237, 250, 244, 0.85);
 }
 
-.app > *:nth-child(2) {
-    flex-grow: 1;
-    overflow-y: auto;
-    overflow-x: hidden;
+[data-theme="lemon"] {
+  --bg: #FEFAE8;
+  --surface: #FEF0A0;
+  --accent: #C47D00;
+  --accent-light: #FDE68A;
+  --fg: #1A1200;
+  --muted: #8A6E0A;
+  --nav-bg: rgba(254, 250, 232, 0.85);
+}
+
+/* ─── Base ───────────────────────────────────────────────────── */
+
+html {
+  background-color: var(--bg);
+  color: var(--fg);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+  background-color: var(--bg);
+  color: var(--fg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ─── Selection ──────────────────────────────────────────────── */
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+/* ─── Scrollbar ──────────────────────────────────────────────── */
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--accent-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent);
+}
+
+/* ─── Typography scale ───────────────────────────────────────── */
+
+.display {
+  font-size: clamp(4.5rem, 14vw, 14rem);
+  font-weight: 700;
+  letter-spacing: -0.04em;
+  line-height: 0.9;
+}
+
+.heading-lg {
+  font-size: clamp(2.5rem, 6vw, 6rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 0.95;
+}
+
+.heading-md {
+  font-size: clamp(1.25rem, 2.5vw, 2.5rem);
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+/* ─── Utilities ──────────────────────────────────────────────── */
+
+.accent { color: var(--accent); }
+.muted  { color: var(--muted); }
+
+.border-theme {
+  border-color: color-mix(in srgb, var(--muted) 20%, transparent);
+}
+
+.divide-theme > * + * {
+  border-top: 1px solid color-mix(in srgb, var(--muted) 15%, transparent);
+}
+
+.border-top-theme {
+  border-top: 1px solid color-mix(in srgb, var(--muted) 20%, transparent);
+}
+
+.border-bottom-theme {
+  border-bottom: 1px solid color-mix(in srgb, var(--muted) 20%, transparent);
+}
+
+/* ─── Skip link ─────────────────────────────────────────────── */
+
+.skip-link {
+  background-color: var(--accent);
+  color: var(--bg);
+}
+
+/* ─── Accessibility / Focus ──────────────────────────────────── */
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 3px;
+}
+
+/* Remove outline for mouse users, keep for keyboard */
+:focus:not(:focus-visible) {
+  outline: none;
 }

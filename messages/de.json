@@ -1,0 +1,91 @@
+{
+  "nav": {
+    "theater": "Theater",
+    "web": "Web",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "open_menu": "Menü öffnen",
+    "close_menu": "Menü schließen",
+    "skip": "Zum Inhalt springen"
+  },
+  "footer": {
+    "imprint": "Impressum",
+    "copy": "© {year} Coodaa — Florian Schneider"
+  },
+  "home": {
+    "tagline": "Full-Stack Developer & Technischer Produktionsleiter — Berlin / Remote",
+    "description": "Digitale Erlebnisse für Web & Technologie. Theatertechnik, Interaction Design, Code.",
+    "scroll": "scrollen",
+    "intro_heading": "Ich baue Dinge,",
+    "intro_heading_accent": "die bewegen.",
+    "intro_text": "Coodaa ist das Studio von Florian Schneider. Ich entwickle Websites und digitale Erlebnisse — und nehme gerne neue Projekte an. Ob Kulturinstitution, Unternehmen oder eigene Idee: schreib mir.",
+    "ai_text": "Ich arbeite mit Claude als täglichem Entwicklungs-Werkzeug — das bedeutet schnellere Umsetzung, sauberer Code und Websites mit echtem SEO-Fundament. Barrierefreiheit und Performance sind dabei keine Extras, sondern Standard.",
+    "intro_link": "Mehr über mich",
+    "theater_label": "Theater",
+    "theater_description": "Technische Produktionsleitung für Theater und Kulturinstitutionen.",
+    "theater_link": "Alle Produktionen",
+    "web_label": "Web & Digital",
+    "web_description": "Interaktive Websites und digitale Erlebnisse.",
+    "web_link": "Alle Projekte"
+  },
+  "theater": {
+    "heading": "Theater",
+    "description": "Technische Produktionsleitung für Theater und Kulturinstitutionen — von Berlin bis China.",
+    "role": "Rolle",
+    "visit": "Mehr Infos",
+    "year": "Jahr"
+  },
+  "web": {
+    "heading": "Web & Digital",
+    "description": "Ausgewählte Web-Projekte — gebaut mit Sorgfalt, Barrierefreiheit und echter Geschwindigkeit.",
+    "role": "Rolle",
+    "visit": "Website besuchen",
+    "year": "Jahr"
+  },
+  "about": {
+    "heading": "Über mich",
+    "bio_heading": "Ich habe 10 Jahre lang Berlins Kulturszene von innen gesehen.",
+    "bio_heading_accent": "Berlins Kulturszene",
+    "bio_1": "Als Technical Manager bei den Berliner Festspielen, im Gropius Bau und an der Volksbühne habe ich verstanden wie diese Häuser ticken — was sie brauchen, was sie bewegt, und was sie sich nicht leisten können.",
+    "bio_2": "2022 habe ich beim Le Wagon Bootcamp in Berlin programmieren gelernt. Seitdem entwickle ich Websites und digitale Erlebnisse — mit dem Fokus auf genau die Welt die ich kenne: Kultur, Kunst, Berlin. Ich nehme gerne neue Aufträge an.",
+    "bio_3": "Coodaa ist mein Studio. Kein generisches Webagentur-Angebot — sondern präzise Arbeit für Projekte die mich interessieren. Dabei lege ich großen Wert auf gutes SEO, saubere Performance und echte Barrierefreiheit.",
+    "bio_ai": "Ich arbeite mit Claude als täglichem Entwicklungs-Werkzeug. Das bedeutet: schnellere Umsetzung, weniger Fehler und Projekte die technisch auf einem Level sind das früher nur mit großen Budgets möglich war.",
+    "contact_link": "Schreib mir",
+    "skills_label": "Technologien",
+    "education_label": "Ausbildung",
+    "education_degree": "B.Eng. Theatertechnik",
+    "education_place": "Berliner Hochschule für Technik (BHT), 2008–2012",
+    "experience_label": "Erfahrung",
+    "accessibility_label": "Barrierefreiheit",
+    "accessibility_text": "Diese Website wurde nach WCAG 2.1 AA entwickelt — mit Tastaturnavigation, ausreichend Kontrast und semantischem HTML."
+  },
+  "contact": {
+    "heading": "Say hi.",
+    "description": "Neues Projekt, Zusammenarbeit oder einfach Hallo? Ich freue mich über jede Nachricht.",
+    "github": "GitHub",
+    "linkedin": "LinkedIn"
+  },
+  "legal": {
+    "heading": "Impressum",
+    "section_info": "Angaben gemäß § 5 TMG",
+    "section_contact": "Kontakt",
+    "section_liability": "Haftungsausschluss",
+    "liability_text": "Die Inhalte dieser Website wurden mit größtmöglicher Sorgfalt erstellt. Für die Richtigkeit, Vollständigkeit und Aktualität der Inhalte kann keine Gewähr übernommen werden.",
+    "section_copyright": "Urheberrecht",
+    "copyright_text": "Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.",
+    "section_a11y": "Barrierefreiheit",
+    "a11y_text": "Diese Website strebt die Konformität mit den Barrierefreiheitsanforderungen nach WCAG 2.1 Stufe AA an. Bei Problemen wenden Sie sich bitte an hi@coodaa.de."
+  },
+  "work": {
+    "heading": "Alle Projekte",
+    "description": "Theater, Events und Web — ein Überblick über alle Arbeiten.",
+    "category_theater": "Theater & Events",
+    "category_web": "Web & Digital",
+    "visit": "Website besuchen"
+  },
+  "not_found": {
+    "heading": "404",
+    "text": "Diese Seite existiert nicht.",
+    "link": "Zurück zur Startseite"
+  }
+}
