@@ -63,17 +63,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       role: { de: 'Technischer Projektleiter', en: 'Technical Project Manager' },
       place: 'Volksbühne Berlin',
       description: {
-        de: 'Technische Leitung und Projektmanagement an einem der bekanntesten Theater Berlins.',
-        en: 'Technical management and project coordination at one of Berlin\'s most iconic theatres.',
-      },
-    },
-    {
-      period: '2024',
-      role: { de: 'Technische Leitung Gastspiele', en: 'Tour Manager / Technical Manager' },
-      place: 'Volksbühne Berlin — Gastspiele China & Deutschland',
-      description: {
-        de: 'Technische Leitung von Gastspielen der Volksbühne Berlin — Produktionen in China und deutschlandweit.',
-        en: 'Technical management of Volksbühne Berlin guest performances — productions in China and nationwide.',
+        de: 'Technische Leitung und Projektmanagement an der Volksbühne Berlin — inkl. Gastspiele in China und deutschlandweit.',
+        en: 'Technical management and project coordination at Volksbühne Berlin — including guest performances in China and nationwide.',
       },
     },
     {
