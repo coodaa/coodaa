@@ -15,6 +15,7 @@ type WebProject = {
   description: { de: string; en: string }
   images: string[]
   url?: string
+  tech?: string[]
 }
 
 const projects: WebProject[] = [
@@ -22,61 +23,66 @@ const projects: WebProject[] = [
     id: 'helgawretman',
     name: 'Helga Wretman',
     year: '2025',
-    role: { de: 'Web Development', en: 'Web Development' },
+    role: { de: 'Design & Web Development', en: 'Design & Web Development' },
     description: {
       de: 'Portfolio-Website für die Berliner Künstlerin Helga Wretman. Minimalistische, dunkle Ästhetik für eine Praxis aus Videokunst, Performance und digitaler Kultur.',
       en: 'Portfolio website for Berlin-based artist Helga Wretman. Minimalist, dark aesthetic for a practice spanning video art, performance and digital culture.',
     },
     images: ['/img/web/helgawretman/helgawretman.png'],
     url: 'https://www.helgawretman.com',
+    tech: ['Next.js', 'React', 'Tailwind CSS'],
   },
   {
     id: 'lsd',
     name: 'LSD Berlin',
     year: '2025',
-    role: { de: 'Web Development', en: 'Web Development' },
+    role: { de: 'Design & Web Development', en: 'Design & Web Development' },
     description: {
       de: 'Website für LSD Berlin — Künstlerkollektiv für experimentelle Theater- und Performancearbeit. Online-Präsenz für ein breites Spektrum aus Theater, Performance, Film und Musik.',
       en: 'Website for LSD Berlin — artist collective for experimental theatre and performance work. Online presence for a broad spectrum of theatre, performance, film and music.',
     },
     images: ['/img/web/lsd/lsd.png'],
     url: 'https://www.lsd-berlin.de/',
+    tech: ['Next.js', 'React', 'Tailwind CSS'],
   },
   {
     id: 'hamburg',
     name: 'Haus Hamburg Leer',
     year: '2024',
-    role: { de: 'Web Development', en: 'Web Development' },
+    role: { de: 'Design & Fullstack Development', en: 'Design & Fullstack Development' },
     description: {
       de: 'Restaurant-Website für Haus Hamburg in Leer — mit Online-Shop, Bestellfunktion und Tischreservierung.',
       en: 'Restaurant website for Haus Hamburg in Leer — with online shop, ordering function and table reservations.',
     },
     images: ['/img/web/haushamburg/haushamburg.png'],
     url: 'https://www.haus-hamburg-leer.de/',
+    tech: ['Vue.js', 'Pinia', 'Tailwind CSS', 'Node.js', 'Stripe'],
   },
   {
     id: 'lysius',
     name: 'Lysius',
     year: '2024',
-    role: { de: 'Web Development', en: 'Web Development' },
+    role: { de: 'Design & Fullstack Development', en: 'Design & Fullstack Development' },
     description: {
       de: 'Website für die Theatergruppe Lysius — multimediale Produktionen mit Musikern, Chören und Künstlern verschiedener Disziplinen. Design das die experimentelle Arbeit in den Vordergrund stellt.',
       en: 'Website for theatre group Lysius — multimedia productions with musicians, choirs and artists from various disciplines. Design that foregrounds the experimental work.',
     },
     images: ['/img/web/lysius/lysius.png'],
     url: 'https://www.lysius.org/',
+    tech: ['Next.js', 'React', 'Tailwind CSS', 'Prisma', 'MySQL'],
   },
   {
     id: 'wagemann',
     name: 'Wagemann Schweiß-Service',
     year: '2023',
-    role: { de: 'Web Development', en: 'Web Development' },
+    role: { de: 'Design & Web Development', en: 'Design & Web Development' },
     description: {
       de: 'Corporate Website für Wagemann Schweiß-Service in Leer — technische Gase, Schweißarbeiten und Beratung in Ostfriesland. Klare Struktur, mobile-first.',
       en: 'Corporate website for Wagemann Schweiß-Service in Leer — technical gases, welding work and consulting in East Frisia. Clean structure, mobile-first.',
     },
     images: ['/img/web/wagemann/wagemann.png'],
     url: 'https://www.wagemann-schweiss-service.de/',
+    tech: ['Next.js', 'React', 'Tailwind CSS'],
   },
 ]
 
@@ -142,6 +148,15 @@ function ProjectSection({
         <p className="text-muted text-sm md:text-base leading-relaxed mt-2 max-w-xs">
           {description}
         </p>
+        {project.tech && project.tech.length > 0 && (
+          <div className="flex flex-wrap gap-2 mt-3">
+            {project.tech.map(tag => (
+              <span key={tag} className="text-xs font-mono px-2 py-1 rounded bg-surface text-muted">
+                {tag}
+              </span>
+            ))}
+          </div>
+        )}
         {project.url && (
           <a
             href={project.url}

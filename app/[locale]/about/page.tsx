@@ -68,6 +68,15 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       },
     },
     {
+      period: '2024',
+      role: { de: 'Gastspielleitung / Technical Manager', en: 'Tour Manager / Technical Manager' },
+      place: 'Volksbühne Berlin — Gastspiele China & Deutschland',
+      description: {
+        de: 'Technische Leitung von Open-Air-Gastspielen der Volksbühne Berlin — Produktionen in China und deutschlandweit.',
+        en: 'Technical management of Volksbühne Berlin open-air guest performances — productions in China and nationwide.',
+      },
+    },
+    {
       period: '2022',
       role: { de: 'Fullstack Web Development', en: 'Fullstack Web Development' },
       place: 'Le Wagon Berlin',
