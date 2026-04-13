@@ -69,11 +69,11 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
     },
     {
       period: '2024',
-      role: { de: 'Gastspielleitung / Technical Manager', en: 'Tour Manager / Technical Manager' },
+      role: { de: 'Technische Leitung Gastspiele', en: 'Tour Manager / Technical Manager' },
       place: 'Volksbühne Berlin — Gastspiele China & Deutschland',
       description: {
-        de: 'Technische Leitung von Open-Air-Gastspielen der Volksbühne Berlin — Produktionen in China und deutschlandweit.',
-        en: 'Technical management of Volksbühne Berlin open-air guest performances — productions in China and nationwide.',
+        de: 'Technische Leitung von Gastspielen der Volksbühne Berlin — Produktionen in China und deutschlandweit.',
+        en: 'Technical management of Volksbühne Berlin guest performances — productions in China and nationwide.',
       },
     },
     {
@@ -90,8 +90,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       role: { de: 'Technischer Leiter MaerzMusik', en: 'Technical Manager MaerzMusik' },
       place: 'Gropius Bau',
       description: {
-        de: 'Technische Leitung des MaerzMusik Festivals im Martin-Gropius-Bau. Außerdem: Ausstellungen "Welt ohne Außen" und "Philippe Parreno".',
-        en: 'Technical management of the MaerzMusik festival. Also: exhibitions "Welt ohne Außen" and "Philippe Parreno".',
+        de: 'Technische Leitung des MaerzMusik Festivals im Martin-Gropius-Bau.',
+        en: 'Technical management of the MaerzMusik festival at the Martin-Gropius-Bau.',
       },
     },
     {
@@ -99,8 +99,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       role: { de: 'Technischer Leiter Immersion', en: 'Technical Manager Immersion' },
       place: 'Berliner Festspiele',
       description: {
-        de: 'Technische Leitung der Programmreihe Immersion bei den Berliner Festspielen. Internationale Großproduktionen, u.a. The New Infinity und The Sun Machine Is Coming Down.',
-        en: 'Technical management of the Immersion programme at the Berliner Festspiele. Major international productions, including The New Infinity and The Sun Machine Is Coming Down.',
+        de: 'Technische Leitung der Programmreihe Immersion bei den Berliner Festspielen. Produktionen u.a.: The New Infinity, Uncanny Valley, Down to Earth.',
+        en: 'Technical management of the Immersion programme at the Berliner Festspiele. Productions including: The New Infinity, Uncanny Valley, Down to Earth.',
       },
     },
     {

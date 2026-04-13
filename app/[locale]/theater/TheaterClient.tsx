@@ -95,8 +95,8 @@ const productions: Production[] = [
       en: 'Technical Manager Immersion',
     },
     description: {
-      de: 'Technische Leitung der Programmreihe Immersion (2019–2020), davor Assistent der technischen Leitung (2016–2018). Produktionen u.a.: Nationaltheater Reinickendorf (Vinge/Müller), The New Infinity, The Sun Machine Is Coming Down. Außerdem technische Leitung der Ausstellungen "Welt ohne Außen" und "Philippe Parreno" im Martin-Gropius-Bau.',
-      en: 'Technical Manager of the Immersion programme (2019–2020), previously Assistant Technical Manager (2016–2018). Productions including: Nationaltheater Reinickendorf (Vinge/Müller), The New Infinity, The Sun Machine Is Coming Down. Also technical management of "Welt ohne Außen" and "Philippe Parreno" exhibitions at Martin-Gropius-Bau.',
+      de: 'Technische Leitung der Programmreihe Immersion (2019–2020), davor Assistent der technischen Leitung (2016–2018). Produktionen u.a.: The New Infinity, Uncanny Valley, Down to Earth, Nationaltheater Reinickendorf (Vinge/Müller). Ausstellungen: "Welt ohne Außen" und "Philippe Parreno" im Martin-Gropius-Bau.',
+      en: 'Technical Manager of the Immersion programme (2019–2020), previously Assistant Technical Manager (2016–2018). Productions including: The New Infinity, Uncanny Valley, Down to Earth, Nationaltheater Reinickendorf (Vinge/Müller). Exhibitions: "Welt ohne Außen" and "Philippe Parreno" at Martin-Gropius-Bau.',
     },
     images: ['/img/gas3.webp', '/img/gas.webp'],
   },
