@@ -62,7 +62,7 @@ const projects: Project[] = [
       en: 'Technical Manager — Immersion',
     },
     description: {
-      de: 'Vier Jahre als Technical Manager bei den Berliner Festspielen, u.a. für das Immersion-Festival. Planung und Durchführung großer internationaler Produktionen.',
+      de: 'Vier Jahre als Technischer Leiter bei den Berliner Festspielen, u.a. für das Immersion-Festival. Planung und Durchführung großer internationaler Produktionen.',
       en: 'Four years as Technical Manager at the Berliner Festspiele, including the Immersion festival. Planning and execution of major international productions.',
     },
     images: ['/img/gas3.webp', '/img/gas.webp', '/img/gas2.webp'],

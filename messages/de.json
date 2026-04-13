@@ -10,7 +10,7 @@
   },
   "footer": {
     "imprint": "Impressum",
-    "copy": "© {year} Coodaa — Florian Schneider"
+    "copy": "© {year} coodaa — Florian Schneider"
   },
   "home": {
     "tagline": "Full-Stack Developer & Technischer Produktionsleiter — Berlin / Remote",
@@ -18,7 +18,7 @@
     "scroll": "scrollen",
     "intro_heading": "Ich baue Dinge,",
     "intro_heading_accent": "die bewegen.",
-    "intro_text": "Coodaa ist das Studio von Florian Schneider. Ich entwickle Websites und digitale Erlebnisse — und nehme gerne neue Projekte an. Ob Kulturinstitution, Unternehmen oder eigene Idee: schreib mir.",
+    "intro_text": "coodaa ist das Studio von Florian Schneider. Ich entwickle Websites und digitale Erlebnisse — und nehme gerne neue Projekte an. Ob Kulturinstitution, Unternehmen oder eigene Idee: schreib mir.",
     "ai_text": "Ich arbeite mit Claude als täglichem Entwicklungs-Werkzeug — das bedeutet schnellere Umsetzung, sauberer Code und Websites mit echtem SEO-Fundament. Barrierefreiheit und Performance sind dabei keine Extras, sondern Standard.",
     "intro_link": "Mehr über mich",
     "theater_label": "Theater",
@@ -37,7 +37,7 @@
   },
   "web": {
     "heading": "Web & Digital",
-    "description": "Ausgewählte Web-Projekte — gebaut mit Sorgfalt, Barrierefreiheit und echter Geschwindigkeit.",
+    "description": "Ausgewählte Web-Projekte — gebaut mit Sorgfalt, Barrierefreiheit und Geschwindigkeit.",
     "role": "Rolle",
     "visit": "Website besuchen",
     "year": "Jahr"
@@ -46,9 +46,9 @@
     "heading": "Über mich",
     "bio_heading": "Ich habe 10 Jahre lang Berlins Kulturszene von innen gesehen.",
     "bio_heading_accent": "Berlins Kulturszene",
-    "bio_1": "Als Technical Manager bei den Berliner Festspielen, im Gropius Bau und an der Volksbühne habe ich verstanden wie diese Häuser ticken — was sie brauchen, was sie bewegt, und was sie sich nicht leisten können.",
+    "bio_1": "Als Technischer Leiter bei den Berliner Festspielen, im Gropius Bau und an der Volksbühne habe ich verstanden wie diese Häuser ticken — was sie brauchen, was sie bewegt, und was sie sich nicht leisten können.",
     "bio_2": "2022 habe ich beim Le Wagon Bootcamp in Berlin programmieren gelernt. Seitdem entwickle ich Websites und digitale Erlebnisse — mit dem Fokus auf genau die Welt die ich kenne: Kultur, Kunst, Berlin. Ich nehme gerne neue Aufträge an.",
-    "bio_3": "Coodaa ist mein Studio. Kein generisches Webagentur-Angebot — sondern präzise Arbeit für Projekte die mich interessieren. Dabei lege ich großen Wert auf gutes SEO, saubere Performance und echte Barrierefreiheit.",
+    "bio_3": "coodaa ist mein Studio. Kein generisches Webagentur-Angebot — sondern präzise Arbeit für Projekte die mich interessieren. Dabei lege ich großen Wert auf gutes SEO, saubere Performance und echte Barrierefreiheit.",
     "bio_ai": "Ich arbeite mit Claude als täglichem Entwicklungs-Werkzeug. Das bedeutet: schnellere Umsetzung, weniger Fehler und Projekte die technisch auf einem Level sind das früher nur mit großen Budgets möglich war.",
     "contact_link": "Schreib mir",
     "skills_label": "Technologien",

@@ -8,11 +8,11 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params
   return {
     title: locale === 'de'
-      ? 'Coodaa — Creative Developer & Technischer Produktionsleiter, Berlin'
-      : 'Coodaa — Creative Developer & Technical Production Manager, Berlin',
+      ? 'coodaa — Creative Developer & Technischer Produktionsleiter, Berlin'
+      : 'coodaa — Creative Developer & Technical Production Manager, Berlin',
     description: locale === 'de'
-      ? 'Coodaa ist das Studio von Florian Schneider — Freelance Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js und echtem SEO-Fundament. Neue Projekte willkommen.'
-      : 'Coodaa is the studio of Florian Schneider — Freelance Web Developer and Technical Production Manager from Berlin. Websites built with Next.js and real SEO foundations. Open to new projects.',
+      ? 'coodaa ist das Studio von Florian Schneider — Freelance Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js und echtem SEO-Fundament. Neue Projekte willkommen.'
+      : 'coodaa is the studio of Florian Schneider — Freelance Web Developer and Technical Production Manager from Berlin. Websites built with Next.js and real SEO foundations. Open to new projects.',
     alternates: {
       canonical: `https://coodaa.de/${locale}`,
       languages: {
@@ -48,7 +48,7 @@ export default function Home() {
       <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-10 pt-14">
         <div className="max-w-[1400px] w-full mx-auto">
           <h1 className="display text-fg mb-6">
-            <LetterReveal text="Coodaa" delay={0.1} stagger={0.08} />
+            <LetterReveal text="coodaa" delay={0.1} stagger={0.08} />
           </h1>
 
           <AnimateIn delay={0.65} y={20}>

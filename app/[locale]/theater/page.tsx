@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       },
     },
     openGraph: {
-      title: locale === 'de' ? 'Theater — Coodaa' : 'Theatre — Coodaa',
+      title: locale === 'de' ? 'Theater — coodaa' : 'Theatre — coodaa',
       description: locale === 'de'
         ? 'Technische Produktionsleitung für Theater und Kulturinstitutionen.'
         : 'Technical production management for theatre and cultural institutions.',

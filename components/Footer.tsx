@@ -9,7 +9,7 @@ export default function Footer() {
       className="border-top-theme px-6 md:px-10 py-8 mt-32 flex flex-col md:flex-row items-start md:items-center justify-between gap-4 text-sm"
     >
       <span className="text-muted">
-        © {new Date().getFullYear()} Coodaa — Florian Schneider
+        © {new Date().getFullYear()} coodaa — Florian Schneider
       </span>
 
       <div className="flex items-center gap-6">

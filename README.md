@@ -1,4 +1,4 @@
-# Coodaa
+# coodaa
 
 Portfolio of **Florian Schneider** — Creative Developer & Technical Production Manager from Berlin.
 

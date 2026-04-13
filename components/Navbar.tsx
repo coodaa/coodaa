@@ -48,9 +48,9 @@ export default function Navbar() {
           <Link
             href="/"
             className="font-bold text-lg tracking-tight transition-colors duration-500 text-accent"
-            aria-label="Coodaa — Startseite"
+            aria-label="coodaa — Startseite"
           >
-            Coodaa
+            coodaa
           </Link>
 
           {/* Desktop */}

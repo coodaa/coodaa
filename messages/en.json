@@ -10,7 +10,7 @@
   },
   "footer": {
     "imprint": "Legal Notice",
-    "copy": "© {year} Coodaa — Florian Schneider"
+    "copy": "© {year} coodaa — Florian Schneider"
   },
   "home": {
     "tagline": "Full-Stack Developer & Technical Production Manager — Berlin / Remote",
@@ -18,7 +18,7 @@
     "scroll": "scroll",
     "intro_heading": "I build things",
     "intro_heading_accent": "that move.",
-    "intro_text": "Coodaa is the studio of Florian Schneider. I build websites and digital experiences — and I'm open to new projects. Whether cultural institution, business or your own idea: get in touch.",
+    "intro_text": "coodaa is the studio of Florian Schneider. I build websites and digital experiences — and I'm open to new projects. Whether cultural institution, business or your own idea: get in touch.",
     "ai_text": "I work with Claude as a daily development tool — faster delivery, cleaner code and websites with real SEO foundations. Accessibility and performance are not extras, they're the standard.",
     "intro_link": "More about me",
     "theater_label": "Theater",
@@ -47,7 +47,7 @@
     "bio_heading_accent": "Berlin's cultural scene.",
     "bio_1": "As Technical Manager at the Berliner Festspiele, Gropius Bau and Volksbühne, I learned how these institutions work — what they need, what drives them, and what they can't afford.",
     "bio_2": "In 2022 I learned to code at Le Wagon Bootcamp in Berlin. Since then I've been building websites and digital experiences — focused on the world I know: culture, art, Berlin. Open to new commissions.",
-    "bio_3": "Coodaa is my studio. Not a generic web agency — precise work for projects that interest me. I place great importance on solid SEO, clean performance and real accessibility.",
+    "bio_3": "coodaa is my studio. Not a generic web agency — precise work for projects that interest me. I place great importance on solid SEO, clean performance and real accessibility.",
     "bio_ai": "I work with Claude as a daily development tool. That means faster delivery, fewer errors and projects that are technically on a level that used to require much bigger budgets.",
     "contact_link": "Get in touch",
     "skills_label": "Technologies",

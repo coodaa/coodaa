@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       },
     },
     openGraph: {
-      title: locale === 'de' ? 'Über mich — Coodaa' : 'About — Coodaa',
+      title: locale === 'de' ? 'Über mich — coodaa' : 'About — coodaa',
       description: locale === 'de'
         ? 'Florian Schneider — Creative Developer und Technischer Produktionsleiter aus Berlin.'
         : 'Florian Schneider — Creative Developer and Technical Production Manager from Berlin.',
@@ -60,7 +60,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
     },
     {
       period: '2023 – 2024',
-      role: { de: 'Technischer Projektleiter', en: 'Technical Project Manager' },
+      role: { de: 'Technischer Produktionsleiter', en: 'Technical Project Manager' },
       place: 'Volksbühne Berlin',
       description: {
         de: 'Technische Leitung und Projektmanagement an der Volksbühne Berlin — inkl. Gastspiele in China und deutschlandweit.',
@@ -79,7 +79,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
     {
       period: '2021 – 2022',
       role: { de: 'Technischer Leiter MaerzMusik', en: 'Technical Manager MaerzMusik' },
-      place: 'Gropius Bau',
+      place: 'Berliner Festspiele',
       description: {
         de: 'Technische Leitung des MaerzMusik Festivals im Martin-Gropius-Bau.',
         en: 'Technical management of the MaerzMusik festival at the Martin-Gropius-Bau.',

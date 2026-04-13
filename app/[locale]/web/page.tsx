@@ -16,7 +16,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       },
     },
     openGraph: {
-      title: 'Web & Digital — Coodaa',
+      title: 'Web & Digital — coodaa',
       description: locale === 'de'
         ? 'Ausgewählte Web-Projekte von Florian Schneider.'
         : 'Selected web projects by Florian Schneider.',

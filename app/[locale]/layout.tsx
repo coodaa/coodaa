@@ -18,15 +18,15 @@ const spaceGrotesk = Space_Grotesk({
 export const metadata: Metadata = {
   metadataBase: new URL('https://coodaa.de'),
   title: {
-    default: 'Coodaa — Creative Developer & Technischer Produktionsleiter',
-    template: '%s — Coodaa',
+    default: 'coodaa — Creative Developer & Technischer Produktionsleiter',
+    template: '%s — coodaa',
   },
   description:
-    'Coodaa — Florian Schneider, Freelance Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js, React und echtem SEO-Fundament. Ich nehme gerne neue Projekte an.',
+    'coodaa — Florian Schneider, Freelance Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js, React und echtem SEO-Fundament. Ich nehme gerne neue Projekte an.',
   keywords: [
     'Freelance Webentwickler Berlin', 'Website erstellen lassen Berlin', 'Next.js Entwickler Berlin',
     'SEO-optimierte Websites', 'Technischer Produktionsleiter', 'Creative Developer',
-    'Full Stack Developer', 'Berlin', 'Florian Schneider', 'Coodaa',
+    'Full Stack Developer', 'Berlin', 'Florian Schneider', 'coodaa',
     'Theatertechnik', 'React', 'Barrierefreiheit', 'Claude AI', 'KI-gestützte Entwicklung',
   ],
   authors: [{ name: 'Florian Schneider', url: 'https://coodaa.de' }],
@@ -45,17 +45,17 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: 'Coodaa — Creative Developer & Technischer Produktionsleiter',
+    title: 'coodaa — Creative Developer & Technischer Produktionsleiter',
     description: 'Websites, digitale Erlebnisse und Theatertechnik. Berlin / Remote.',
     type: 'website',
     url: 'https://coodaa.de',
     locale: 'de_DE',
     alternateLocale: ['en_US'],
-    siteName: 'Coodaa',
+    siteName: 'coodaa',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Coodaa — Creative Developer & Technischer Produktionsleiter',
+    title: 'coodaa — Creative Developer & Technischer Produktionsleiter',
     description: 'Websites, digitale Erlebnisse und Theatertechnik. Berlin / Remote.',
     creator: '@coodaa',
   },
@@ -95,7 +95,7 @@ export default async function LocaleLayout({
               {
                 '@context': 'https://schema.org',
                 '@type': 'WebSite',
-                name: 'Coodaa',
+                name: 'coodaa',
                 url: 'https://coodaa.de',
                 author: { '@type': 'Person', name: 'Florian Schneider' },
               },
@@ -107,7 +107,7 @@ export default async function LocaleLayout({
                 jobTitle: locale === 'de'
                   ? ['Technischer Produktionsleiter', 'Full Stack Developer']
                   : ['Technical Production Manager', 'Full Stack Developer'],
-                worksFor: { '@type': 'Organization', name: 'Coodaa' },
+                worksFor: { '@type': 'Organization', name: 'coodaa' },
                 address: {
                   '@type': 'PostalAddress',
                   streetAddress: 'Linienstraße 227',

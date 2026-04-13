@@ -25,7 +25,7 @@ const projects: WebProject[] = [
     year: '2025',
     role: { de: 'Design & Web Development', en: 'Design & Web Development' },
     description: {
-      de: 'Portfolio-Website für die Berliner Künstlerin Helga Wretman. Minimalistische, dunkle Ästhetik für eine Praxis aus Videokunst, Performance und digitaler Kultur.',
+      de: 'Portfolio-Website für die Berliner Künstlerin Helga Wretman. Minimalistische Ästhetik für eine Praxis aus Videokunst, Performance und digitaler Kultur.',
       en: 'Portfolio website for Berlin-based artist Helga Wretman. Minimalist, dark aesthetic for a practice spanning video art, performance and digital culture.',
     },
     images: ['/img/web/helgawretman/helgawretman.png'],
@@ -36,7 +36,7 @@ const projects: WebProject[] = [
     id: 'lsd',
     name: 'LSD Berlin',
     year: '2025',
-    role: { de: 'Design & Web Development', en: 'Design & Web Development' },
+    role: { de: 'Web Development', en: 'Web Development' },
     description: {
       de: 'Website für LSD Berlin — Künstlerkollektiv für experimentelle Theater- und Performancearbeit. Online-Präsenz für ein breites Spektrum aus Theater, Performance, Film und Musik.',
       en: 'Website for LSD Berlin — artist collective for experimental theatre and performance work. Online presence for a broad spectrum of theatre, performance, film and music.',
@@ -62,7 +62,7 @@ const projects: WebProject[] = [
     id: 'lysius',
     name: 'Lysius',
     year: '2024',
-    role: { de: 'Design & Fullstack Development', en: 'Design & Fullstack Development' },
+    role: { de: 'Fullstack Development', en: 'Fullstack Development' },
     description: {
       de: 'Website für die Theatergruppe Lysius — multimediale Produktionen mit Musikern, Chören und Künstlern verschiedener Disziplinen. Design das die experimentelle Arbeit in den Vordergrund stellt.',
       en: 'Website for theatre group Lysius — multimedia productions with musicians, choirs and artists from various disciplines. Design that foregrounds the experimental work.',
