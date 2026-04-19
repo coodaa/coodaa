@@ -185,7 +185,7 @@ function ProductionSection({
       className="grid md:grid-cols-[1fr_1.6fr] gap-12 md:gap-20 py-24 md:py-32"
       aria-label={production.name}
     >
-      <div className="md:sticky md:top-24 md:self-start flex flex-col gap-4">
+      <div className="md:sticky md:top-24 md:self-start flex flex-col gap-4 min-w-0">
         <span className="text-muted text-xs font-mono uppercase tracking-widest" aria-label={`Produktion ${index + 1} von ${total}`}>
           {String(index + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
         </span>
@@ -213,7 +213,7 @@ function ProductionSection({
         )}
       </div>
 
-      <div className="flex flex-col gap-5">
+      <div className="flex flex-col gap-5 min-w-0">
         {production.images.map((src, i) => (
           <ParallaxImage key={src + i} src={src} alt={`${production.name} — Bild ${i + 1}`} i={i} />
         ))}
