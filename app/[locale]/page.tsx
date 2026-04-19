@@ -24,10 +24,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 }
 
 const theaterProjects = [
-  { name: 'Volksbühne — Peer Gynt',   year: '2025' },
+  { name: 'Volksbühne Peer Gynt',      year: '2025' },
   { name: 'Aranya Theater Festival',  year: '2022' },
   { name: 'Volksbühne Berlin',        year: '2023–2024' },
-  { name: 'Gropius Bau MaerzMusik',   year: '2021–2022' },
+  { name: 'MaerzMusik',               year: '2021–2022' },
   { name: 'Berliner Festspiele',      year: '2016–2020' },
 ]
 

@@ -60,7 +60,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
     },
     {
       period: '2023 – 2024',
-      role: { de: 'Technischer Produktionsleiter', en: 'Technical Project Manager' },
+      role: { de: 'Technical Project Manager', en: 'Technical Project Manager' },
       place: 'Volksbühne Berlin',
       description: {
         de: 'Technische Leitung und Projektmanagement an der Volksbühne Berlin — inkl. Gastspiele in China und deutschlandweit.',
@@ -101,15 +101,6 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
       description: {
         de: 'Assistent der technischen Leitung bei Immersion. U.a. Nationaltheater Reinickendorf (Vinge/Müller). Außerdem technische Leitung der Ausstellungen "Welt ohne Außen" und "Philippe Parreno" im Martin-Gropius-Bau.',
         en: 'Assistant Technical Manager at Immersion. Including Nationaltheater Reinickendorf (Vinge/Müller). Also technical management of "Welt ohne Außen" and "Philippe Parreno" exhibitions at Martin-Gropius-Bau.',
-      },
-    },
-    {
-      period: '2016 – 2017',
-      role: { de: 'Assistent der technischen Leitung', en: 'Assistant Technical Manager' },
-      place: 'Nationaltheater Reinickendorf — Berliner Festspiele / Immersion',
-      description: {
-        de: 'Offiziell Assistent der technischen Leitung — faktisch mit deutlich erweiterter Verantwortung. Produktion von Vegard Vinge & Ida Müller, eine der aufwändigsten und ungewöhnlichsten Theaterproduktionen Berlins.',
-        en: 'Officially Assistant Technical Manager — in practice with significantly expanded responsibilities. Production by Vegard Vinge & Ida Müller, one of the most ambitious and unconventional theatre productions in Berlin.',
       },
     },
     {

@@ -23,7 +23,8 @@
     "ai_text": "I work with Claude as a daily development tool — faster delivery, cleaner code and websites with real SEO foundations. Accessibility and performance are not extras, they're the standard.",
     "intro_link": "More about me",
     "theater_label": "Theater",
-    "theater_description": "Technical production management for theatre and cultural institutions.",    "theater_link": "All productions",
+    "theater_description": "Technical production management for theatre and cultural institutions.",
+    "theater_link": "All productions",
     "web_label": "Web & Digital",
     "web_description": "Interactive websites and digital experiences.",
     "web_link": "All projects"
