@@ -15,50 +15,59 @@ export default async function Image({ params }: { params: Promise<{ locale: stri
   return new ImageResponse(
     <div
       style={{
-        background: '#190811',
+        background: '#FEF0F5',
         width: '100%',
         height: '100%',
         display: 'flex',
         flexDirection: 'column',
         alignItems: 'flex-start',
-        justifyContent: 'center',
+        justifyContent: 'space-between',
         padding: '80px',
       }}
     >
       <div
         style={{
           color: '#F72585',
-          fontSize: 22,
-          fontWeight: 600,
-          letterSpacing: '0.2em',
-          textTransform: 'uppercase',
-          marginBottom: 32,
+          fontSize: 28,
+          fontWeight: 700,
+          letterSpacing: '0.1em',
           fontFamily: 'sans-serif',
         }}
       >
         coodaa.de
       </div>
+
+      <div style={{ display: 'flex', flexDirection: 'column', gap: 24 }}>
+        <div
+          style={{
+            color: '#190811',
+            fontSize: 88,
+            fontWeight: 700,
+            lineHeight: 1,
+            fontFamily: 'sans-serif',
+          }}
+        >
+          Florian Schneider
+        </div>
+        <div
+          style={{
+            color: '#9E6B7E',
+            fontSize: 30,
+            fontFamily: 'sans-serif',
+          }}
+        >
+          {subtitle}
+        </div>
+      </div>
+
       <div
         style={{
-          color: '#FEF0F5',
-          fontSize: 80,
-          fontWeight: 700,
-          lineHeight: 1,
-          marginBottom: 32,
-          fontFamily: 'sans-serif',
+          width: 60,
+          height: 6,
+          background: '#F72585',
+          borderRadius: 3,
         }}
-      >
-        Florian Schneider
-      </div>
-      <div
-        style={{
-          color: '#9E6B7E',
-          fontSize: 26,
-          fontFamily: 'sans-serif',
-        }}
-      >
-        {subtitle}
-      </div>
+      />
     </div>,
     { ...size }
   )
