@@ -141,7 +141,7 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           </AnimateIn>
           <AnimateIn delay={0.1}><p className="text-muted text-base md:text-lg leading-relaxed">{t('bio_1')}</p></AnimateIn>
           <AnimateIn delay={0.2}><p className="text-muted text-base md:text-lg leading-relaxed">{t('bio_2')}</p></AnimateIn>
-          <AnimateIn delay={0.3}><p className="text-muted text-base md:text-lg leading-relaxed">{t('bio_3')}</p></AnimateIn>
+     
           <AnimateIn delay={0.35}><p className="text-muted text-base md:text-lg leading-relaxed border-l-2 pl-4 border-accent">{t('bio_ai')}</p></AnimateIn>
           <AnimateIn delay={0.4}>
             <Link href="/contact" className="inline-flex items-center gap-2 mt-2 text-sm font-semibold uppercase tracking-widest text-accent group">
