@@ -2,7 +2,6 @@
   "nav": {
     "theater": "Theater",
     "web": "Web",
-    "cases": "Cases",
     "about": "About",
     "contact": "Contact",
     "open_menu": "Open menu",
@@ -76,14 +75,6 @@
     "copyright_text": "The content and works on these pages created by the site operator are subject to German copyright law. Reproduction, editing, distribution and any kind of use outside the limits of copyright require the written consent of the respective author or creator.",
     "section_a11y": "Accessibility",
     "a11y_text": "This website aims to conform to WCAG 2.1 Level AA accessibility requirements. If you encounter any issues, please contact hi@coodaa.de."
-  },
-  "cases": {
-    "heading": "Cases",
-    "description": "Web development for culture, hospitality and creative industries — from Berlin.",
-    "challenge": "Challenge",
-    "solution": "Approach",
-    "result": "Result",
-    "visit": "Visit website"
   },
   "work": {
     "heading": "All Projects",

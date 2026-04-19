@@ -16,7 +16,6 @@ export default function Navbar() {
   const links = [
     { href: '/theater', label: t('theater') },
     { href: '/web',     label: t('web')     },
-    { href: '/cases',   label: t('cases')   },
     { href: '/about',   label: t('about')   },
     { href: '/contact', label: t('contact') },
   ]

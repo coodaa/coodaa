@@ -13,6 +13,7 @@ type WebProject = {
   year: string
   role: { de: string; en: string }
   description: { de: string; en: string }
+  detail: { de: string; en: string }
   images: string[]
   url?: string
   tech?: string[]
@@ -25,8 +26,12 @@ const projects: WebProject[] = [
     year: '2025',
     role: { de: 'Design & Web Development', en: 'Design & Web Development' },
     description: {
-      de: 'Portfolio-Website für die Berliner Künstlerin Helga Wretman. Minimalistische Ästhetik für eine Praxis aus Videokunst, Performance und digitaler Kultur.',
-      en: 'Portfolio website for Berlin-based artist Helga Wretman. Minimalist, dark aesthetic for a practice spanning video art, performance and digital culture.',
+      de: 'Portfolio-Website für die Berliner Medienkünstlerin Helga Wretman. Minimalistische Ästhetik für eine Praxis aus Videokunst, Performance und digitaler Kultur.',
+      en: 'Portfolio website for Berlin-based media artist Helga Wretman. Minimalist, dark aesthetic for a practice spanning video art, performance and digital culture.',
+    },
+    detail: {
+      de: 'Gebaut mit Next.js für maximale Performance und semantisches HTML für Barrierefreiheit und SEO. Alle Seiten server-side gerendert, Core Web Vitals im grünen Bereich. Vollständige Metadaten und mehrsprachige Unterstützung für internationale Reichweite.',
+      en: 'Built with Next.js for maximum performance and semantic HTML for accessibility and SEO. All pages server-side rendered, Core Web Vitals in the green. Full metadata and multilingual support for international reach.',
     },
     images: ['/img/web/helgawretman/helgawretman.png'],
     url: 'https://www.helgawretman.com',
@@ -38,8 +43,12 @@ const projects: WebProject[] = [
     year: '2025',
     role: { de: 'Web Development', en: 'Web Development' },
     description: {
-      de: 'Website für LSD Berlin — Künstlerkollektiv für experimentelle Theater- und Performancearbeit. Online-Präsenz für ein breites Spektrum aus Theater, Performance, Film und Musik.',
-      en: 'Website for LSD Berlin — artist collective for experimental theatre and performance work. Online presence for a broad spectrum of theatre, performance, film and music.',
+      de: 'Website für LSD Berlin — Berliner Künstlerkollektiv für experimentelles Theater und Performance. Online-Präsenz für ein Spektrum aus Theater, Performance, Film und Musik.',
+      en: 'Website for LSD Berlin — Berlin artist collective for experimental theatre and performance. Online presence spanning theatre, performance, film and music.',
+    },
+    detail: {
+      de: 'Flexible Next.js-Architektur, die neue Inhalte einfach aufnimmt. Strukturierte Metadaten für jede Produktion sorgen dafür, dass einzelne Stücke bei Berliner Theater-Suchen sichtbar werden — nicht nur die Homepage.',
+      en: 'Flexible Next.js architecture that makes adding new content straightforward. Structured metadata for each production ensures individual shows appear in Berlin theatre searches — not just the homepage.',
     },
     images: ['/img/web/lsd/lsd.png'],
     url: 'https://www.lsd-berlin.de/',
@@ -51,8 +60,12 @@ const projects: WebProject[] = [
     year: '2024',
     role: { de: 'Design & Fullstack Development', en: 'Design & Fullstack Development' },
     description: {
-      de: 'Restaurant-Website für Haus Hamburg in Leer — mit Online-Shop, Bestellfunktion und Tischreservierung.',
-      en: 'Restaurant website for Haus Hamburg in Leer — with online shop, ordering function and table reservations.',
+      de: 'Fullstack-Website für ein Restaurant in Leer, Ostfriesland — mit Online-Shop, Bestellfunktion und Tischreservierung. Direkte Bestellungen ohne Drittplattform-Provision.',
+      en: 'Fullstack website for a restaurant in Leer, East Frisia — with online shop, ordering and table reservations. Direct orders without third-party commission.',
+    },
+    detail: {
+      de: 'Vue.js Frontend, Node.js Backend, Stripe-Integration für sichere Zahlungen. Tischreservierungssystem mit E-Mail-Bestätigung. Lokales SEO mit strukturierten Daten (Schema.org Restaurant) und auf Leer / Ostfriesland optimierten Texten. Mobile-first.',
+      en: 'Vue.js frontend, Node.js backend, Stripe integration for secure payments. Table reservation system with email confirmation. Local SEO with structured data (Schema.org Restaurant) and texts optimised for Leer / East Frisia. Mobile-first.',
     },
     images: ['/img/web/haushamburg/haushamburg.png'],
     url: 'https://www.haus-hamburg-leer.de/',
@@ -64,8 +77,12 @@ const projects: WebProject[] = [
     year: '2024',
     role: { de: 'Fullstack Development', en: 'Fullstack Development' },
     description: {
-      de: 'Website für die Theatergruppe Lysius — multimediale Produktionen mit Musikern, Chören und Künstlern verschiedener Disziplinen. Design das die experimentelle Arbeit in den Vordergrund stellt.',
-      en: 'Website for theatre group Lysius — multimedia productions with musicians, choirs and artists from various disciplines. Design that foregrounds the experimental work.',
+      de: 'Website für die Berliner Theatergruppe Lysius — multimediale Produktionen mit Musikern, Chören und Künstlern verschiedener Disziplinen.',
+      en: 'Website for Berlin theatre group Lysius — multimedia productions with musicians, choirs and artists from various disciplines.',
+    },
+    detail: {
+      de: 'Datenbankgestütztes Content-System mit Prisma und MySQL. Ein einfaches Admin-Interface erlaubt dem Team, neue Produktionen, Termine und Bilder selbst einzupflegen — ohne Entwickler beauftragen zu müssen.',
+      en: 'Database-backed content system with Prisma and MySQL. A simple admin interface lets the team add new productions, dates and images themselves — without hiring a developer.',
     },
     images: ['/img/web/lysius/lysius.png'],
     url: 'https://www.lysius.org/',
@@ -77,8 +94,12 @@ const projects: WebProject[] = [
     year: '2023',
     role: { de: 'Design & Web Development', en: 'Design & Web Development' },
     description: {
-      de: 'Corporate Website für Wagemann Schweiß-Service in Leer — technische Gase, Schweißarbeiten und Beratung in Ostfriesland. Klare Struktur, mobile-first.',
-      en: 'Corporate website for Wagemann Schweiß-Service in Leer — technical gases, welding work and consulting in East Frisia. Clean structure, mobile-first.',
+      de: 'Corporate Website für Wagemann Schweiß-Service in Leer — technische Gase, Schweißarbeiten und Beratung in Ostfriesland.',
+      en: 'Corporate website for Wagemann Schweiß-Service in Leer — technical gases, welding work and consulting in East Frisia.',
+    },
+    detail: {
+      de: 'Mobile-first entwickelt mit klarer Struktur und lokalem SEO. Strukturierte Daten (Schema.org LocalBusiness) für bessere Sichtbarkeit bei lokalen Google-Suchen. Alle Seiten statisch generiert für maximale Ladegeschwindigkeit.',
+      en: 'Developed mobile-first with clear structure and local SEO. Structured data (Schema.org LocalBusiness) for better visibility in local Google searches. All pages statically generated for maximum loading speed.',
     },
     images: ['/img/web/wagemann/wagemann.png'],
     url: 'https://www.wagemann-schweiss-service.de/',
@@ -125,6 +146,7 @@ function ProjectSection({
 
   const role = locale === 'en' ? project.role.en : project.role.de
   const description = locale === 'en' ? project.description.en : project.description.de
+  const detail = locale === 'en' ? project.detail.en : project.detail.de
 
   return (
     <motion.article
@@ -137,7 +159,7 @@ function ProjectSection({
         <span className="text-muted text-xs font-mono uppercase tracking-widest" aria-label={`Projekt ${index + 1} von ${total}`}>
           {String(index + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
         </span>
-        <h2 className="heading-lg text-fg">{project.name}</h2>
+        <h2 className="heading-lg text-fg [hyphens:auto] [overflow-wrap:break-word]">{project.name}</h2>
         <div className="flex items-center gap-3 flex-wrap">
           <span className="text-xs uppercase tracking-widest font-medium px-3 py-1 rounded-full bg-surface text-accent">
             {role}
@@ -146,6 +168,9 @@ function ProjectSection({
         </div>
         <p className="text-muted text-sm md:text-base leading-relaxed mt-2 max-w-xs">
           {description}
+        </p>
+        <p className="text-muted text-sm leading-relaxed max-w-xs">
+          {detail}
         </p>
         {project.tech && project.tech.length > 0 && (
           <div className="flex flex-wrap gap-2 mt-3">

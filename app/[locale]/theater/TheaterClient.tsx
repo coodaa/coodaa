@@ -189,7 +189,7 @@ function ProductionSection({
         <span className="text-muted text-xs font-mono uppercase tracking-widest" aria-label={`Produktion ${index + 1} von ${total}`}>
           {String(index + 1).padStart(2, '0')} / {String(total).padStart(2, '0')}
         </span>
-        <h2 className="heading-lg text-fg">{production.name}</h2>
+        <h2 className="heading-lg text-fg [hyphens:auto] [overflow-wrap:break-word]">{production.name}</h2>
         <div className="flex items-center gap-3 flex-wrap">
           <span className="text-xs uppercase tracking-widest font-medium px-3 py-1 rounded-full bg-surface text-accent">
             {role}

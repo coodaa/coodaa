@@ -2,7 +2,6 @@
   "nav": {
     "theater": "Theater",
     "web": "Web",
-    "cases": "Projekte",
     "about": "Über mich",
     "contact": "Kontakt",
     "open_menu": "Menü öffnen",
@@ -76,14 +75,6 @@
     "copyright_text": "Die durch den Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechtes bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers.",
     "section_a11y": "Barrierefreiheit",
     "a11y_text": "Diese Website strebt die Konformität mit den Barrierefreiheitsanforderungen nach WCAG 2.1 Stufe AA an. Bei Problemen wenden Sie sich bitte an hi@coodaa.de."
-  },
-  "cases": {
-    "heading": "Projekte",
-    "description": "Webentwicklung für Kultur, Gastronomie und Kreativwirtschaft — aus Berlin.",
-    "challenge": "Ausgangslage",
-    "solution": "Umsetzung",
-    "result": "Ergebnis",
-    "visit": "Website besuchen"
   },
   "work": {
     "heading": "Alle Projekte",
