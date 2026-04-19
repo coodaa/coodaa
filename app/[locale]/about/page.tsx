@@ -143,8 +143,8 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
           <AnimateIn>
             <h2 className="heading-md text-fg">
               {locale === 'de'
-                ? <>Ich habe 10 Jahre lang<br /><span className="text-accent">Berlins Kulturszene</span><br />von innen gesehen.</>
-                : <>I spent 10 years inside<br /><span className="text-accent">Berlin&apos;s cultural scene.</span></>
+                ? <>Bühne und <span className="text-accent">Browser.</span></>
+                : <>Stage and <span className="text-accent">Screen.</span></>
               }
             </h2>
           </AnimateIn>
