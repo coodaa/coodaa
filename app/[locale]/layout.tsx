@@ -16,13 +16,13 @@ const spaceGrotesk = Space_Grotesk({
 })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://coodaa.de'),
+  metadataBase: new URL('https://www.coodaa.de'),
   title: {
-    default: 'coodaa — Creative Developer & Technischer Produktionsleiter',
+    default: 'coodaa — Freelance Webentwickler Berlin',
     template: '%s — coodaa',
   },
   description:
-    'coodaa — Florian Schneider, Freelance Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js, React und echtem SEO-Fundament. Ich nehme gerne neue Projekte an.',
+    'Florian Schneider — Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js, echtem SEO und Barrierefreiheit. Neue Projekte willkommen.',
   keywords: [
     'Freelance Webentwickler Berlin', 'Website erstellen lassen Berlin', 'Next.js Entwickler Berlin',
     'SEO-optimierte Websites', 'Technischer Produktionsleiter', 'Creative Developer',
@@ -37,26 +37,26 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true },
   },
   alternates: {
-    canonical: 'https://coodaa.de/de',
+    canonical: 'https://www.coodaa.de/de',
     languages: {
-      'de': 'https://coodaa.de/de',
-      'en': 'https://coodaa.de/en',
-      'x-default': 'https://coodaa.de/de',
+      'de': 'https://www.coodaa.de/de',
+      'en': 'https://www.coodaa.de/en',
+      'x-default': 'https://www.coodaa.de/de',
     },
   },
   openGraph: {
-    title: 'coodaa — Creative Developer & Technischer Produktionsleiter',
-    description: 'Websites, digitale Erlebnisse und Theatertechnik. Berlin / Remote.',
+    title: 'coodaa — Freelance Webentwickler Berlin',
+    description: 'Florian Schneider — Webentwickler aus Berlin. Websites mit Next.js, echtem SEO und Barrierefreiheit.',
     type: 'website',
-    url: 'https://coodaa.de',
+    url: 'https://www.coodaa.de',
     locale: 'de_DE',
     alternateLocale: ['en_US'],
     siteName: 'coodaa',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'coodaa — Creative Developer & Technischer Produktionsleiter',
-    description: 'Websites, digitale Erlebnisse und Theatertechnik. Berlin / Remote.',
+    title: 'coodaa — Freelance Webentwickler Berlin',
+    description: 'Florian Schneider — Webentwickler aus Berlin. Websites mit Next.js, echtem SEO und Barrierefreiheit.',
     creator: '@coodaa',
   },
 }

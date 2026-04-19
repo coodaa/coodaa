@@ -26,7 +26,8 @@
     "theater_link": "Alle Produktionen",
     "web_label": "Web & Digital",
     "web_description": "Interaktive Websites und digitale Erlebnisse.",
-    "web_link": "Alle Projekte"
+    "web_link": "Alle Projekte",
+    "h1_suffix": "Freelance Webentwickler Berlin"
   },
   "theater": {
     "heading": "Theater",

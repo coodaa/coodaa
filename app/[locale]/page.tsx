@@ -8,16 +8,16 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   const { locale } = await params
   return {
     title: locale === 'de'
-      ? 'coodaa — Creative Developer & Technischer Produktionsleiter, Berlin'
-      : 'coodaa — Creative Developer & Technical Production Manager, Berlin',
+      ? 'coodaa — Freelance Webentwickler Berlin'
+      : 'coodaa — Freelance Web Developer Berlin',
     description: locale === 'de'
-      ? 'coodaa ist das Studio von Florian Schneider — Freelance Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js und echtem SEO-Fundament. Neue Projekte willkommen.'
-      : 'coodaa is the studio of Florian Schneider — Freelance Web Developer and Technical Production Manager from Berlin. Websites built with Next.js and real SEO foundations. Open to new projects.',
+      ? 'Florian Schneider — Webentwickler und Technischer Produktionsleiter aus Berlin. Websites mit Next.js, echtem SEO und Barrierefreiheit. Neue Projekte willkommen.'
+      : 'Florian Schneider — Web Developer and Technical Production Manager from Berlin. Websites with Next.js, real SEO and accessibility. Open to new projects.',
     alternates: {
-      canonical: `https://coodaa.de/${locale}`,
+      canonical: `https://www.coodaa.de/${locale}`,
       languages: {
-        'de': 'https://coodaa.de/de',
-        'en': 'https://coodaa.de/en',
+        'de': 'https://www.coodaa.de/de',
+        'en': 'https://www.coodaa.de/en',
       },
     },
   }
@@ -49,6 +49,7 @@ export default function Home() {
         <div className="max-w-[1400px] w-full mx-auto">
           <h1 className="display text-fg mb-6">
             <LetterReveal text="coodaa" delay={0.1} stagger={0.08} />
+            <span className="sr-only"> — {t('h1_suffix')}</span>
           </h1>
 
           <AnimateIn delay={0.65} y={20}>

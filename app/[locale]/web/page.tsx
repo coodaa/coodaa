@@ -9,10 +9,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ? 'Websites und digitale Erlebnisse von Florian Schneider — gebaut mit Next.js, React und echtem SEO-Fundament. Ich nehme gerne neue Aufträge an.'
       : 'Websites and digital experiences by Florian Schneider — built with Next.js, React and real SEO foundations. Open to new commissions.',
     alternates: {
-      canonical: `https://coodaa.de/${locale}/web`,
+      canonical: `https://www.coodaa.de/${locale}/web`,
       languages: {
-        'de': 'https://coodaa.de/de/web',
-        'en': 'https://coodaa.de/en/web',
+        'de': 'https://www.coodaa.de/de/web',
+        'en': 'https://www.coodaa.de/en/web',
       },
     },
     openGraph: {

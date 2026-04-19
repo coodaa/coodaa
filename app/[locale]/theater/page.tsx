@@ -9,10 +9,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
       ? 'Technische Produktionsleitung für Theater und Kulturinstitutionen — von der Volksbühne Berlin bis zum Aranya Theater Festival in China.'
       : 'Technical production management for theatre and cultural institutions — from Volksbühne Berlin to the Aranya Theater Festival in China.',
     alternates: {
-      canonical: `https://coodaa.de/${locale}/theater`,
+      canonical: `https://www.coodaa.de/${locale}/theater`,
       languages: {
-        'de': 'https://coodaa.de/de/theater',
-        'en': 'https://coodaa.de/en/theater',
+        'de': 'https://www.coodaa.de/de/theater',
+        'en': 'https://www.coodaa.de/en/theater',
       },
     },
     openGraph: {
