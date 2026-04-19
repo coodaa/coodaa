@@ -92,14 +92,13 @@ function ParallaxImage({ src, alt, i }: { src: string; alt: string; i: number })
   const y = useTransform(scrollYProgress, [0, 1], [i % 2 === 0 ? 40 : -40, i % 2 === 0 ? -40 : 40])
 
   return (
-    <div ref={ref} className="overflow-hidden rounded-lg">
-      <motion.div style={{ y }}>
+    <div ref={ref} className="w-full overflow-hidden rounded-lg">
+      <motion.div style={{ y }} className="relative w-full aspect-[3/2]">
         <Image
           src={src}
           alt={alt}
-          width={800}
-          height={520}
-          className="w-full object-cover"
+          fill
+          className="object-cover"
           sizes="(max-width: 768px) 100vw, 50vw"
         />
       </motion.div>

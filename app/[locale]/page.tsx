@@ -36,7 +36,7 @@ const webProjects = [
   { name: 'LSD Berlin',           year: '2025' },
   { name: 'Haus Hamburg Leer',    year: '2024' },
   { name: 'Lysius',               year: '2024' },
-  { name: 'Wagemann Schweiß',     year: '2023' },
+  { name: 'Wagemann Schweiß-Service',     year: '2023' },
 ]
 
 export default function Home() {

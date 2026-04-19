@@ -20,22 +20,22 @@ type Production = {
 const productions: Production[] = [
   {
     id: 'volksbuehne-peergynt',
-    name: 'Volksbühne — Peer Gynt',
+    name: 'Volksbühne Peer Gynt',
     year: '2025',
     role: {
       de: 'Technischer Produktionsleiter',
       en: 'Technical Production Manager',
     },
     description: {
-      de: 'Technische Gesamtleitung für Peer Gynt an der Volksbühne am Rosa-Luxemburg-Platz. Regie: Vegard Vinge (Vinge / Müller / Reinholdtsen), Ensemble über 70 Mitwirkende auf der Großen Bühne. Verantwortung für alle technischen Gewerke, Budgetplanung und Teamführung.',
-      en: 'Full technical production management for Peer Gynt at the Volksbühne am Rosa-Luxemburg-Platz. Direction: Vegard Vinge (Vinge / Müller / Reinholdtsen), ensemble of over 70 performers on the main stage. Responsible for all technical departments, budget planning and team leadership.',
+      de: 'Technische Gesamtleitung für Peer Gynt an der Volksbühne am Rosa-Luxemburg-Platz. Regie: Vegard Vinge (Vinge / Müller / Reinholdtsen), Ensemble rund 100 Mitwirkende auf der Großen Bühne. Verantwortung für alle technischen Gewerke, Budgetplanung und Teamführung.',
+      en: 'Full technical production management for Peer Gynt at the Volksbühne am Rosa-Luxemburg-Platz. Direction: Vegard Vinge (Vinge / Müller / Reinholdtsen), ensemble of around 100 performers on the main stage. Responsible for all technical departments, budget planning and team leadership.',
     },
     images: [
-      '/img/peergynt/peergynt-stadtkulisse.webp',
-      '/img/peergynt/peergynt-telefonzelle.webp',
-      '/img/peergynt/peergynt-hexe.webp',
-      '/img/peergynt/peergynt-jongynt.webp',
-      '/img/peergynt/peergynt-maske.webp',
+      '/img/theatre/peergynt/peergynt-stadtkulisse.webp',
+      '/img/theatre/peergynt/peergynt-telefonzelle.webp',
+      '/img/theatre/peergynt/peergynt-hexe.webp',
+      '/img/theatre/peergynt/peergynt-jongynt.webp',
+      '/img/theatre/peergynt/peergynt-maske.webp',
     ],
     url: 'https://www.volksbuehne.berlin/de/repertoire/peer-gynt',
   },
@@ -52,9 +52,9 @@ const productions: Production[] = [
       en: 'Technical management of the Volksbühne Berlin guest performance at the Aranya Theater Festival in Qinhuangdao, China. Outdoor production directly on the sea — coordination of setup, technical departments and international team on site.',
     },
     images: [
-      '/img/aranya/aranya-buehne-meer.webp',
-      '/img/aranya/aranya-buehne-nass.webp',
-      '/img/aranya/aranya-technik.webp',
+      '/img/theatre/aranya/aranya-buehne-meer.webp',
+      '/img/theatre/aranya/aranya-buehne-nass.webp',
+      '/img/theatre/aranya/aranya-technik.webp',
     ],
     url: 'https://www.aranyatheaterfestival.com/archive2021-2022',
   },
@@ -70,35 +70,71 @@ const productions: Production[] = [
       de: 'Technisches Projektmanagement an der Volksbühne am Rosa-Luxemburg-Platz über mehrere Spielzeiten.',
       en: 'Technical project management at the Volksbühne am Rosa-Luxemburg-Platz across multiple seasons.',
     },
-    images: ['/img/janichtsistok/volksbuehne-ja-nichts-ist-ok.webp'],
+    images: [
+      '/img/theatre/volksbuehne-2023/volksbuehne-ja-nichts-ist-ok.webp',
+      '/img/theatre/volksbuehne-2023/extinction.webp',
+      '/img/theatre/volksbuehne-2023/volksbuehne-sancta.webp',
+    ],
   },
   {
     id: 'gropiusbau',
-    name: 'Gropius Bau — MaerzMusik',
+    name: 'MaerzMusik',
     year: '2021–2022',
     role: {
       de: 'Technical Manager',
       en: 'Technical Manager',
     },
     description: {
-      de: 'Technische Leitung des MaerzMusik Festivals im Martin-Gropius-Bau. Koordination aller technischen Gewerke für das internationale Musikfestival. Außerdem technische Leitung der Ausstellungen "Welt ohne Außen" und "Philippe Parreno".',
-      en: 'Technical management of the MaerzMusik festival at the Martin-Gropius-Bau. Coordination of all technical departments for the international music festival. Also technical management of the exhibitions "Welt ohne Außen" and "Philippe Parreno".',
+      de: 'Technische Leitung des MaerzMusik Festivals im Gropius Bau und weiteren Orten. Koordination aller technischen Gewerke für das internationale Musikfestival.',
+      en: 'Technical management of the MaerzMusik festival at the Martin-Gropius-Bau and other locations. Coordination of all technical departments for the international music festival.',
     },
-    images: ['/img/gas2.webp', '/img/gas3.webp'],
+    images: [
+      '/img/theatre/maerzmusik/mm22-p-100-cymbals-c-henri-vogt.webp',
+      '/img/theatre/maerzmusik/maerzmusik-01.webp',
+      '/img/theatre/maerzmusik/maerzmusik-02.webp',
+    ],
+  },
+  {
+    id: 'nationaltheater',
+    name: 'Nationaltheater Reinickendorf',
+    year: '2016–2017',
+    role: {
+      de: 'Assistent der technischen Leitung',
+      en: 'Assistant Technical Manager',
+    },
+    description: {
+      de: 'Produktion von Vegard Vinge & Ida Müller — eine der aufwändigsten und ungewöhnlichsten Theaterproduktionen Berlins. Einrichtung einer Industriehalle als temporäre Spielstätte. Offiziell Assistent der technischen Leitung, faktisch mit deutlich erweiterter Verantwortung.',
+      en: 'Production by Vegard Vinge & Ida Müller — one of the most ambitious and unconventional theatre productions in Berlin. Conversion of an industrial hall into a temporary venue. Officially Assistant Technical Manager, in practice with significantly expanded responsibilities.',
+    },
+    images: [
+      '/img/theatre/nationaltheater/nationaltheater-00.webp',
+      '/img/theatre/nationaltheater/nationaltheater-01.webp',
+      '/img/theatre/nationaltheater/nationaltheater-02.webp',
+      '/img/theatre/nationaltheater/nationaltheater-03.webp',
+      '/img/theatre/nationaltheater/nationaltheater-04.webp',
+      '/img/theatre/nationaltheater/nationaltheater-05.webp',
+    ],
   },
   {
     id: 'festspiele',
-    name: 'Berliner Festspiele',
+    name: 'Berliner Festspiele Immersion',
     year: '2016–2020',
     role: {
-      de: 'Technical Manager Immersion',
+      de: 'Technischer Leiter Immersion',
       en: 'Technical Manager Immersion',
     },
     description: {
       de: 'Technische Leitung der Programmreihe Immersion (2019–2020), davor Assistent der technischen Leitung (2016–2018). Produktionen u.a.: The New Infinity, Uncanny Valley, Down to Earth, Nationaltheater Reinickendorf (Vinge/Müller). Ausstellungen: "Welt ohne Außen" und "Philippe Parreno" im Martin-Gropius-Bau.',
       en: 'Technical Manager of the Immersion programme (2019–2020), previously Assistant Technical Manager (2016–2018). Productions including: The New Infinity, Uncanny Valley, Down to Earth, Nationaltheater Reinickendorf (Vinge/Müller). Exhibitions: "Welt ohne Außen" and "Philippe Parreno" at Martin-Gropius-Bau.',
     },
-    images: ['/img/gas3.webp', '/img/gas.webp'],
+    images: [
+      '/img/theatre/immersion/immersion-uncanny-valley.webp',
+      '/img/theatre/immersion/immersion-new-infinity.webp',
+      '/img/theatre/immersion/immersion-down-to-earth.webp',
+      '/img/theatre/immersion/immersion-down-to-earth-2.webp',
+      '/img/theatre/immersion/immersion-01.webp',
+      '/img/theatre/immersion/immersion-02.webp',
+    ],
   },
 ]
 
@@ -108,14 +144,13 @@ function ParallaxImage({ src, alt, i }: { src: string; alt: string; i: number })
   const y = useTransform(scrollYProgress, [0, 1], [i % 2 === 0 ? 40 : -40, i % 2 === 0 ? -40 : 40])
 
   return (
-    <div ref={ref} className="overflow-hidden rounded-lg">
-      <motion.div style={{ y }}>
+    <div ref={ref} className="w-full overflow-hidden rounded-lg">
+      <motion.div style={{ y }} className="relative w-full aspect-[3/2]">
         <Image
           src={src}
           alt={alt}
-          width={800}
-          height={520}
-          className="w-full object-cover"
+          fill
+          className="object-cover"
           sizes="(max-width: 768px) 100vw, 50vw"
         />
       </motion.div>
