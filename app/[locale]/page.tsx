@@ -3,6 +3,7 @@ import { useTranslations } from 'next-intl'
 import LetterReveal from '@/components/LetterReveal'
 import AnimateIn from '@/components/AnimateIn'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
   const { locale } = await params
@@ -47,6 +48,21 @@ export default function Home() {
       {/* ─── Hero ──────────────────────────────────────────────── */}
       <section className="relative min-h-screen flex flex-col justify-center px-6 md:px-10 pt-14">
         <div className="max-w-[1400px] w-full mx-auto">
+          <AnimateIn delay={0} y={10}>
+            <div className="flex items-center gap-4 mb-8">
+              <Image
+                src="/img/schneider.png"
+                alt="Florian Schneider"
+                width={96}
+                height={96}
+                className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover grayscale ring-2 ring-accent/40 shrink-0"
+              />
+              <span className="text-muted text-sm font-semibold uppercase tracking-widest">
+                Florian Schneider
+              </span>
+            </div>
+          </AnimateIn>
+
           <h1 className="display text-fg mb-6">
             <LetterReveal text="coodaa" delay={0.1} stagger={0.08} />
             <span className="sr-only"> — {t('h1_suffix')}</span>
