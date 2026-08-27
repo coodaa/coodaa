@@ -134,13 +134,15 @@ export default async function AboutPage({ params }: { params: Promise<{ locale: 
         <div className="flex flex-col gap-6">
           <AnimateIn>
             <div className="flex items-center gap-5 mb-2">
-              <Image
-                src="/img/schneider.png"
-                alt="Florian Schneider"
-                width={128}
-                height={128}
-                className="w-24 h-24 md:w-28 md:h-28 rounded-full object-cover grayscale ring-2 ring-accent/40 shrink-0"
-              />
+              <div className="w-24 h-24 md:w-28 md:h-28 rounded-full ring-2 ring-accent shrink-0 overflow-hidden">
+                <Image
+                  src="/img/schneider.png"
+                  alt="Florian Schneider"
+                  width={128}
+                  height={128}
+                  className="w-full h-full object-cover grayscale"
+                />
+              </div>
               <div>
                 <p className="text-fg font-semibold">Florian Schneider</p>
                 <p className="text-muted text-sm">

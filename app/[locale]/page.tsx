@@ -50,13 +50,15 @@ export default function Home() {
         <div className="max-w-[1400px] w-full mx-auto">
           <AnimateIn delay={0} y={10}>
             <div className="flex items-center gap-4 mb-8">
-              <Image
-                src="/img/schneider.png"
-                alt="Florian Schneider"
-                width={96}
-                height={96}
-                className="w-20 h-20 md:w-24 md:h-24 rounded-full object-cover grayscale ring-2 ring-accent/40 shrink-0"
-              />
+              <div className="w-20 h-20 md:w-24 md:h-24 rounded-full ring-2 ring-accent shrink-0 overflow-hidden">
+                <Image
+                  src="/img/schneider.png"
+                  alt="Florian Schneider"
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover grayscale"
+                />
+              </div>
               <span className="text-muted text-sm font-semibold uppercase tracking-widest">
                 Florian Schneider
               </span>
