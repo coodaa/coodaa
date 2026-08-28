@@ -14,18 +14,18 @@
   },
   "home": {
     "tagline": "Full-Stack Developer & Technical Production Manager — Berlin / Remote",
-    "description": "Digital experiences for web & technology. Theatre technology, interaction design, code.",
+    "description": "Websites that hold up technically — from theatre technology into code.",
     "scroll": "scroll",
-    "intro_heading": "I build things",
-    "intro_heading_accent": "that move.",
-    "intro_text": "coodaa is my small studio. I build websites and digital experiences. Cultural institution, business or your own idea: say hi.",
-    "ai_text": "I work with Claude as a daily development tool — faster delivery, cleaner code and websites with real SEO foundations. Accessibility and performance are not extras, they're the standard.",
+    "intro_heading": "From the stage",
+    "intro_heading_accent": "to the browser.",
+    "intro_text": "coodaa is my small studio. I build websites — for cultural institutions, businesses or your own idea. Say hi.",
+    "ai_text": "I build with Claude as a daily tool — not to cut corners, but to have more time for what matters: clean SEO, real accessibility, pages that load fast.",
     "intro_link": "More about me",
     "theater_label": "Theater",
     "theater_description": "Technical production management for theatre and cultural institutions.",
     "theater_link": "All productions",
     "web_label": "Web & Digital",
-    "web_description": "Interactive websites and digital experiences.",
+    "web_description": "Websites for culture, craft and everything in between.",
     "web_link": "All projects",
     "h1_suffix": "Freelance Web Developer Berlin"
   },
@@ -38,7 +38,7 @@
   },
   "web": {
     "heading": "Web & Digital",
-    "description": "Selected web projects — built with care, accessibility and real speed.",
+    "description": "Selected web projects — for culture, craft and everything in between.",
     "role": "Role",
     "visit": "Visit website",
     "year": "Year"
@@ -48,9 +48,9 @@
     "bio_heading": "I spent 10 years inside Berlin's cultural scene.",
     "bio_heading_accent": "Berlin's cultural scene.",
     "bio_1": "As Technical Manager at the Berliner Festspiele, Gropius Bau and Volksbühne, I learned how these institutions work — what they need, what drives them, and what they can't afford.",
-    "bio_2": "In 2022 I learned to code at Le Wagon Bootcamp in Berlin. Since then I've been building websites and digital experiences — focused on the world I know: culture, art, Berlin.",
-    
-    "bio_ai": "I work with Claude as a daily development tool. That means faster delivery, fewer errors — and projects that are technically on a level that used to require much bigger budgets.",
+    "bio_2": "In 2022 I learned to code at Le Wagon Bootcamp in Berlin. Since then I've been building websites — focused on the world I know: culture, art, Berlin.",
+
+    "bio_ai": "I use Claude daily at work — mostly for boilerplate, debugging and the boring parts. I still read every line before it goes live.",
     "contact_link": "Get in touch",
     "skills_label": "Technologies",
     "education_label": "Education",
